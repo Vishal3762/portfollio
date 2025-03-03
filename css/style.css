@@ -8775,6 +8775,10 @@ h1, h2, h3, h4, h5,
         border: 1px solid transparent;
         background: #ffbd39;
         color: #fff; }
+        .btn.btn-white.btn-outline-white:hover{
+          background: lightgreen !important;
+          color: black !important;
+        }
 
 .ftco-about .img-about {
   width: 100%;
@@ -9804,5 +9808,17 @@ textarea.form-control {
       color: black;
 
     }
-    
-    
+    .education {
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+      opacity: 0.9;
+     
+  }
+
+  
+  .education:hover {
+      transform: translateY(-10px);
+      opacity: 1;
+      box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Optional: Enhance shadow effect */
+      border-bottom: 5px solid lightblue;
+  }
+  
